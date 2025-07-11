@@ -8,9 +8,23 @@ button {
 /* *header styles */
 .header {
   background-image: url('../Assets/Hero-bg.png');
-  width: 1440px;
+  
+  width: auto;
   height: 698px;
+  
 }
 .header-div {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+.header-text {
+  align-items: center;
+  justify-content: center;
+ margin: 0 auto;
+ margin-top: 200px;
+ margin-left: 850px;
+ width: 905px;
+ height: 237px;
 }
