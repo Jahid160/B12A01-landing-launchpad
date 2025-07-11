@@ -71,12 +71,17 @@ button {
 }
 
 /* *card section */
+
 .card {
   width: 1440px;
   height: 342px;
   gap: 50px;
   background-color: rgb(167, 165, 163);
   margin: 137px 150px;
+}
+.card-section {
+  display: flex;
+  justify-content: space-around;
 }
 .card .card-title {
   text-align: center;
@@ -96,5 +101,40 @@ button {
 }
 .cercle img {
   border-radius: 50%;
+  margin-top: -5px;
+}
+.review-body {
+  margin-top: -20px;
+}
+.review-body p {
+  margin-top: -16px;
+  padding-bottom: 20px;
+}
+.avater-body {
+  display: flex;
+  
+  align-items: center;
+}
+.avater-text {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.avater-text p {
+  margin-top: -18px;
+}
 
+/* *focus section */
+.focus {
+  width: 1440px;
+  height: 696px;
+  border-radius: 14px;
+  padding:71px 150px;
+  justify-content: center;
+}
+.focus-header, .focus-img{
+  justify-content: center;
+  text-align: center;
+}
+.focus-btn {
+  margin-bottom: 10px;
 }
