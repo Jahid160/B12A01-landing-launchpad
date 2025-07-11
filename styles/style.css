@@ -5,6 +5,11 @@ button {
   padding: 10px;
   border: none;
 }
+
+button:hover {
+  color: rgb(13, 228, 77);
+  background-color: #3a3697;
+}
 /* *header styles */
 .header {
   background-image: url('../Assets/Hero-bg.png');
