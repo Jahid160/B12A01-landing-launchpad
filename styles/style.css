@@ -192,6 +192,10 @@ button {
 .form {
   padding: 130px ;
 }
+.form button {
+  margin-top: 10px;
+  padding: 19px;
+}
 
 /* *footer styles */
 .containers {
