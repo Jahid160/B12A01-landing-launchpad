@@ -6,7 +6,7 @@ button {
   border: none;
 }
 
-button:hover {
+.hv:hover {
   color: rgb(13, 228, 77);
   background-color: #3a3697;
 }
@@ -40,6 +40,7 @@ button:hover {
   font-weight: 700;
   font-style: normal;
 }
+
 /* *main section styles */
 .center {
   justify-content: center;
