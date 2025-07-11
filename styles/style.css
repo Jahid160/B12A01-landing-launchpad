@@ -28,7 +28,13 @@ button {
  width: 905px;
  height: 237px;
 }
-
+.header-div h1 {
+  color: #4E47FF;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 /* *main section styles */
 .center {
   justify-content: center;
@@ -40,6 +46,7 @@ button {
   height: 328px;
   margin: 116px 100px;
   align-items: center;
+  padding-left: 50px;
 }
 
 .main-1-section img{
@@ -55,6 +62,8 @@ button {
   height: 306px;
   border-radius: 24px;
   justify-content: center;
+  padding-left: 15px;
+  
   
   margin: 116px 159px 200px 137px;
 }
@@ -69,6 +78,9 @@ button {
   padding-left: 600px;
   padding-top: 10px;
 }
+.main-2-title {
+  margin-top: -70px;
+}
 
 /* *card section */
 
@@ -76,8 +88,9 @@ button {
   width: 1440px;
   height: 342px;
   gap: 50px;
-  background-color: rgb(167, 165, 163);
+  background-color: rgb(238, 229, 229);
   margin: 137px 150px;
+  margin-top: -150px;
 }
 .card-section {
   display: flex;
@@ -128,8 +141,11 @@ button {
   width: 1440px;
   height: 696px;
   border-radius: 14px;
-  padding:71px 150px;
+  padding:71px 150px -150px;
   justify-content: center;
+  background-color: aliceblue;
+  margin: 120px 150px;
+  margin-top: -100px;
 }
 .focus-header, .focus-img{
   justify-content: center;
@@ -137,4 +153,77 @@ button {
 }
 .focus-btn {
   margin-bottom: 10px;
+}
+
+/* * form section */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+  height: 490px;
+  
+
+  
+}
+.text-box-section {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 150px; */
+  background-color: aliceblue;
+  margin: 120px 150px -300px;
+  padding:71px 150px -150px -100px;
+  margin-top: -70px;
+  
+}
+.comments-title {
+  font-size: 3rem;
+  padding: 70px;
+}
+.form input {
+  border-radius: 10px;
+  padding: 15px;
+}
+.form textarea {
+  border-radius: 10px;
+  padding: 25px;
+}
+.form {
+  padding: 130px ;
+}
+
+/* *footer styles */
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 320px;
+}
+.footer-section {
+  width: 1440px;
+  height: 428px;
+  background-color: rgb(255, 250, 250);
+  margin-left: 152px;
+}
+.footer-link a{
+  gap: 30px;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.63);
+  list-style: none;
+}
+.footer-text h1 {
+  text-align: center;
+  color: rgb(47, 0, 255);
+  padding-top: 100px;
+  
+}
+.footer-text b {
+  font-size: 4rem;
+   
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
